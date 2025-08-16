@@ -22,176 +22,171 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-           
-   
-
-dyttzy: {
-    api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
-    name: '电影天堂资源',
-    detail: 'http://caiji.dyttzyapi.com'
+    dyttzy: {
+        api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
+        name: '电影天堂资源',
+        detail: 'http://caiji.dyttzyapi.com'
   },
-heimuer: {
-    api: 'https://json.heimuer.xyz/api.php/provide/vod',
-    name: '黑木耳',
-    detail: 'https://heimuer.tv'
+    heimuer: {
+        api: 'https://json.heimuer.xyz/api.php/provide/vod',
+        name: '黑木耳',
+        detail: 'https://heimuer.tv'
   },
-  ruyi: {
-    api: 'https://cj.rycjapi.com/api.php/provide/vod',
-    name: '如意资源'
+        ruyi: {
+        api: 'https://cj.rycjapi.com/api.php/provide/vod',
+        name: '如意资源'
   },
-  bfzy: {
-    api: 'https://bfzyapi.com/api.php/provide/vod',
-    name: '暴风资源'
+    bfzy: {
+        api: 'https://bfzyapi.com/api.php/provide/vod',
+        name: '暴风资源'
   },
-  tyyszy: {
-    api: 'https://tyyszy.com/api.php/provide/vod',
-    name: '天涯资源'
+    tyyszy: {
+        api: 'https://tyyszy.com/api.php/provide/vod',
+        name: '天涯资源'
   },
-  ffyzy: {
-    api: 'http://cj.ffzyapi.com/api.php/provide/vod',
-    name: '非凡云',
-  detail: 'http://cj.ffzyapi.com'
+    ffyzy: {
+        api: 'http://cj.ffzyapi.com/api.php/provide/vod',
+        name: '非凡云',
+        detail: 'http://cj.ffzyapi.com'
   },
     iqiyi: {
-    api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
-    name: 'iqiyi资源'
+        api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
+        name: 'iqiyi资源'
   },
-  wolong: {
-    api: 'https://wolongzyw.com/api.php/provide/vod',
-    name: '卧龙资源'
+    wolong: {
+        api: 'https://wolongzyw.com/api.php/provide/vod',
+        name: '卧龙资源'
   },
-  wolong2: {
-    api: 'https://collect.wolongzyw.com/api.php/provide/vod',
-    name: '卧龙资源2'
+    wolong2: {
+        api: 'https://collect.wolongzyw.com/api.php/provide/vod',
+        name: '卧龙资源2'
   },
-  jisu: {
-    api: 'https://jszyapi.com/api.php/provide/vod',
-    name: '极速资源',
-    detail: 'https://jszyapi.com'
+    jisu: {
+        api: 'https://jszyapi.com/api.php/provide/vod',
+        name: '极速资源',
+        detail: 'https://jszyapi.com'
   },
-  mozhua: {
-    api: 'https://mozhuazy.com/api.php/provide/vod',
-    name: '魔爪资源'
+    mozhua: {
+        api: 'https://mozhuazy.com/api.php/provide/vod',
+        name: '魔爪资源'
   },
-  yinghua: {
-    api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
-    name: '樱花资源'
+    yinghua: {
+        api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
+        name: '樱花资源'
   },
-  wujin: {
-    api: 'https://api.wujinapi.me/api.php/provide/vod',
-    name: 无尽资源'
+    wujin: {
+        api: 'https://api.wujinapi.me/api.php/provide/vod',
+        name: 无尽资源'
   },
-  wwzy: {
-    api: 'https://wwzy.tv/api.php/provide/vod',
-    name: '旺旺短剧'
+    wwzy: {
+        api: 'https://wwzy.tv/api.php/provide/vod',
+        name: '旺旺短剧'
   },
-  ikun: {
-    api: 'https://ikunzyapi.com/api.php/provide/vod',
-    name: 'iKun资源'
+    ikun: {
+        api: 'https://ikunzyapi.com/api.php/provide/vod',
+        name: 'iKun资源'
   },
   lzi: {
-    api: 'https://cj.lziapi.com/api.php/provide/vod',
-    name: '量子资源'
+        api: 'https://cj.lziapi.com/api.php/provide/vod',
+        name: '量子资源'
   },
-  huya: {
-    api: 'https://www.huyaapi.com/api.php/provide/vod',
-    name: '虎牙资源',
-    detail: 'https://www.huyaapi.com'
+    huya: {
+        api: 'https://www.huyaapi.com/api.php/provide/vod',
+        name: '虎牙资源',
+        detail: 'https://www.huyaapi.com'
   },
-  ckzy: {
-    api: 'https://ckzy.me/api.php/provide/vod',
-    name: 'CK资源',
-    detail: 'https://ckzy.me'
+    ckzy: {
+        api: 'https://ckzy.me/api.php/provide/vod',
+        name: 'CK资源',
+        detail: 'https://ckzy.me'
   },
-wujinzy: {
- api: 'https://api.wujinapi.com/api.php/provide/vod',
- name: '无尽资源2',
- detail: 'https://api.wujinapi.com'
+    wujinzy: {
+        api: 'https://api.wujinapi.com/api.php/provide/vod',
+        name: '无尽资源2',
+        detail: 'https://api.wujinapi.com'
 },
-hongniuzy: {
- api: 'https://www.hongniuzy2.com/api.php/provide/vod',
- name: '红牛资源',
- detail: 'https://www.hongniuzy2.com'
+    hongniuzy: {
+         api: 'https://www.hongniuzy2.com/api.php/provide/vod',
+         name: '红牛资源',
+         detail: 'https://www.hongniuzy2.com'
 } ,
-AV5: {
- api: 'https://91md.me/api.php/provide/vod/',
- name: 'AV-91麻豆',
- detail: 'https://91md.me'
+    AV5: {
+         api: 'https://91md.me/api.php/provide/vod/',
+         name: 'AV-91麻豆',
+         detail: 'https://91md.me'
 },
- AV6: {
- api: 'http://lbapiby.com/api.php/provide/vod/at/json',
- name: 'AV-AIvin',
- detail: 'http://lbapiby.com'
+    AV6: {
+         api: 'http://lbapiby.com/api.php/provide/vod/at/json',
+         name: 'AV-AIvin',
+         detail: 'http://lbapiby.com'
 },
-AV8: {
- api: 'http://fhapi9.com/api.php/provide/vod',
- name: 'AV-番号资源',
- detail: 'http://fhapi9.com'
+    AV8: {
+         api: 'http://fhapi9.com/api.php/provide/vod',
+         name: 'AV-番号资源',
+         detail: 'http://fhapi9.com'
 },
-AV11: {
- api: 'https://Naixxzy.com/api.php/provide/vod',
- name: 'AV-奶香香',
- detail: 'https://Naixxzy.com'
+    AV11: {
+         api: 'https://Naixxzy.com/api.php/provide/vod',
+         name: 'AV-奶香香',
+         detail: 'https://Naixxzy.com'
 },
-AV12: {
- api: 'https://slapibf.com/api.php/provide/vod',
- name: 'AV-森林资源',
- detail: 'https://slapibf.com'
+    AV12: {
+         api: 'https://slapibf.com/api.php/provide/vod',
+         name: 'AV-森林资源',
+         detail: 'https://slapibf.com'
 },
-AV13: {
- api: 'https://shayuapi.com/api.php/provide/vod',
- name: 'AV-鲨鱼资源',
- detail: 'https://shayuapi.com'
+    AV13: {
+         api: 'https://shayuapi.com/api.php/provide/vod',
+         name: 'AV-鲨鱼资源',
+         detail: 'https://shayuapi.com'
 },
-AV17: {
- api: 'https://apiyutu.com/api.php/provide/vod',
- name: 'AV-玉兔资源',
- detail: 'https://apiutu.com'
+    AV17: {
+         api: 'https://apiyutu.com/api.php/provide/vod',
+         name: 'AV-玉兔资源',
+         detail: 'https://apiutu.com'
 },
- AV19: {
- api: 'https://www.pgxdy.com/api/json.php',
- name: 'AV-AV资源',
- detail: 'https://www.pgxdy.com'
+    AV19: {
+         api: 'https://www.pgxdy.com/api/json.php',
+         name: 'AV-AV资源',
+         detail: 'https://www.pgxdy.com'
 },
- AV20: {
- api: 'https://www.gdlsp.com/api/json.php',
- name: 'AV-香奶儿资源',
- detail: 'https://www.gdlsp.com'
+    AV20: {
+         api: 'https://www.gdlsp.com/api/json.php',
+         name: 'AV-香奶儿资源',
+         detail: 'https://www.gdlsp.com'
 },
-AV21: {
- api: 'https://www.kxgav.com/api/json.php',
- name: 'AV-白嫖资源',
- detail: 'https://www.kxgav.com'
+    AV21: {
+         api: 'https://www.kxgav.com/api/json.php',
+         name: 'AV-白嫖资源',
+         detail: 'https://www.kxgav.com'
 },
-AV23: {
-api: 'https://www.xrbsp.com/api/json.php',
-name: 'AV-淫水资源',
-detail: 'https://www.xrbsp.com'
+    AV23: {
+        api: 'https://www.xrbsp.com/api/json.php',
+        name: 'AV-淫水资源',
+        detail: 'https://www.xrbsp.com'
 },
-AV24: {
-api: 'https://www.msnii.com/api/json.php',
-name: 'AV-美少女资源',
-detail: 'https://www.msnii.com'
+    AV24: {
+        api: 'https://www.msnii.com/api/json.php',
+        name: 'AV-美少女资源',
+        detail: 'https://www.msnii.com'
 },
-AV25: {
-api: 'https://lbapi9.com/api.php/provide/vod/at/json',
-name: 'AV-乐播资源',
-detail: 'https://lbapi9.com'
+    AV25: {
+        api: 'https://lbapi9.com/api.php/provide/vod/at/json',
+        name: 'AV-乐播资源',
+        detail: 'https://lbapi9.com'
 },
-AV1: {
- api: 'https://www.caoliuzyw.com/api.php/prodao/vod',
- name: 'AV-草榴资源',
- detail: 'https://www.caoliuzyw.com'
+    AV1: {
+         api: 'https://www.caoliuzyw.com/api.php/prodao/vod',
+         name: 'AV-草榴资源',
+         detail: 'https://www.caoliuzyw.com'
 },
 
     testSource: {
-        api: 'https://www.example.com',
-        name: '空内容测试源',
-        adult: true
+         api: 'https://www.example.com/api.php/provide/vod',
+         name: '空内容测试源',
+         adult: true
     }
-
-   
-  
+     
 };
 
 // 定义合并方法
