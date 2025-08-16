@@ -27,139 +27,173 @@ const API_SITES = {
         name: '电影天堂资源',
         detail: 'http://caiji.dyttzyapi.com',
     },
-    ruyi: {
-        api: 'https://cj.rycjapi.com',
-        name: '如意资源',
-    },
-    bfzy: {
-        api: 'https://bfzyapi.com',
-        name: '暴风资源',
-    },
-    tyyszy: {
-        api: 'https://tyyszy.com',
-        name: '天涯资源',
-    },
-    xiaomaomi: {
-        api: 'https://zy.xiaomaomi.cc',
-        name: '小猫咪资源',
-    },
-    ffzy: {
-        api: 'http://ffzy5.tv',
-        name: '非凡影视',
-        detail: 'http://ffzy5.tv',
-    },
-    heimuer: {
-        api: 'https://json.heimuer.xyz',
-        name: '黑木耳',
-        detail: 'https://heimuer.tv',
-    },
-    zy360: {
-        api: 'https://360zy.com',
-        name: '360资源',
-    },
-    wolong: {
-        api: 'https://wolongzyw.com',
-        name: '卧龙资源',
-    },
-    hwba: {
-        api: 'https://cjhwba.com',
-        name: '华为吧资源',
-    },
-    jisu: {
-        api: 'https://jszyapi.com',
-        name: '极速资源',
-        detail: 'https://jszyapi.com'
-    },
-    dbzy: {
-        api: 'https://dbzy.com',
-        name: '豆瓣资源',
-    },
-    mozhua: {
-        api: 'https://mozhuazy.com',
-        name: '魔爪资源',
-    },
-    mdzy: {
-        api: 'https://www.mdzyapi.com',
-        name: '魔都资源',
-    },
-    zuid: {
-        api: 'https://api.zuidapi.com',
-        name: '最大资源'
-    },
-    yinghua: {
-        api: 'https://m3u8.apiyhzy.com',
-        name: '樱花资源'
-    },
-    baidu: {
-        api: 'https://api.apibdzy.com',
-        name: '百度云资源'
-    },
-    wujin: {
-        api: 'https://api.wujinapi.me',
-        name: '无尽资源'
-    },
-    wwzy: {
-        api: 'https://wwzy.tv',
-        name: '旺旺短剧'
-    },
-    ikun: {
-        api: 'https://ikunzyapi.com',
-        name: 'iKun资源'
-    },
+         
     testSource: {
         api: 'https://www.example.com',
         name: '空内容测试源',
         adult: true
     }
-    // 下面是一些成人内容的API源，默认隐藏，使用本项目浏览黄色内容违背项目初衷
-    // 互联网上传播的色情内容将人彻底客体化、工具化，是性别解放和人类平等道路上的巨大障碍。
-    // 这些黄色影片是资本主义父权制压迫的最恶毒体现，它将暴力和屈辱商品化，践踏人的尊严，对受害者造成无法弥愈的伤害，并毒害社会关系。
-    // 资本为了利润，不惜将最卑劣的剥削（包括对受害者和表演者的剥削）和暴力商品化，
-    // 把性别剥削塑造成“性享受”麻痹观众的意识，转移我们对现实生活中矛盾和压迫的注意力。
-    // 这些影片和背后的产业已经使数百万男女“下海”，出卖自己的身体，甚至以此为生计。
-    // 而作为观众无辜吗？毫无疑问，他们促成了黄色产业链的再生产。
-    // 我们提供此警告，是希望您能认清这些内容的本质——它们是压迫和奴役的工具，而非娱乐。
-    // ckzy: {
-    //     api: 'https://www.ckzy1.com',
-    //     name: 'CK资源',
-    //     adult: true
-    // },
-    // jkun: {
-    //     api: 'https://jkunzyapi.com',
-    //     name: 'jkun资源',
-    //     adult: true
-    // },
-    // bwzy: {
-    //     api: 'https://api.bwzym3u8.com',
-    //     name: '百万资源',
-    //     adult: true
-    // },
-    // souav: {
-    //     api: 'https://api.souavzy.vip',
-    //     name: 'souav资源',
-    //     adult: true
-    // },
-    // r155: {
-    //     api: 'https://155api.com',
-    //     name: '155资源',
-    //     adult: true
-    // },
-    // lsb: {
-    //     api: 'https://apilsbzy1.com',
-    //     name: 'lsb资源',
-    //     adult: true
-    // },
-    // huangcang: {
-    //     api: 'https://hsckzy.vip',
-    //     name: '黄色仓库',
-    //     adult: true,
-    //     detail: 'https://hsckzy.vip'
-    // },
-    // yutu: {
-    //     api: 'https://yutuzy10.com',
-    //     name: '玉兔资源',
-    //     adult: true
-    // },
+
+dyttzy: {
+    api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
+    name: '电影天堂资源',
+    detail: 'http://caiji.dyttzyapi.com'
+  },
+heimuer: {
+    api: 'https://json.heimuer.xyz/api.php/provide/vod',
+    name: '黑木耳',
+    detail: 'https://heimuer.tv'
+  },
+  ruyi: {
+    api: 'https://cj.rycjapi.com/api.php/provide/vod',
+    name: '如意资源'
+  },
+  bfzy: {
+    api: 'https://bfzyapi.com/api.php/provide/vod',
+    name: '暴风资源'
+  },
+  tyyszy: {
+    api: 'https://tyyszy.com/api.php/provide/vod',
+    name: '天涯资源'
+  },
+  ffyzy: {
+    api: 'http://cj.ffzyapi.com/api.php/provide/vod',
+    name: '非凡云',
+  detail: 'http://cj.ffzyapi.com'
+  },
+    iqiyi: {
+    api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
+    name: 'iqiyi资源'
+  },
+  wolong: {
+    api: 'https://wolongzyw.com/api.php/provide/vod',
+    name: '卧龙资源'
+  },
+  wolong2: {
+    api: 'https://collect.wolongzyw.com/api.php/provide/vod',
+    name: '卧龙资源2'
+  },
+  jisu: {
+    api: 'https://jszyapi.com/api.php/provide/vod',
+    name: '极速资源',
+    detail: 'https://jszyapi.com'
+  },
+  mozhua: {
+    api: 'https://mozhuazy.com/api.php/provide/vod',
+    name: '魔爪资源'
+  },
+  yinghua: {
+    api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
+    name: '樱花资源'
+  },
+  wujin: {
+    api: 'https://api.wujinapi.me/api.php/provide/vod',
+    name: 无尽资源'
+  },
+  wwzy: {
+    api: 'https://wwzy.tv/api.php/provide/vod',
+    name: '旺旺短剧'
+  },
+  ikun: {
+    api: 'https://ikunzyapi.com/api.php/provide/vod',
+    name: 'iKun资源'
+  },
+  lzi: {
+    api: 'https://cj.lziapi.com/api.php/provide/vod',
+    name: '量子资源'
+  },
+  huya: {
+    api: 'https://www.huyaapi.com/api.php/provide/vod',
+    name: '虎牙资源',
+    detail: 'https://www.huyaapi.com'
+  },
+  ckzy: {
+    api: 'https://ckzy.me/api.php/provide/vod',
+    name: 'CK资源',
+    detail: 'https://ckzy.me'
+  },
+wujinzy: {
+ api: 'https://api.wujinapi.com/api.php/provide/vod',
+ name: '无尽资源2',
+ detail: 'https://api.wujinapi.com'
+},
+hongniuzy: {
+ api: 'https://www.hongniuzy2.com/api.php/provide/vod',
+ name: '红牛资源',
+ detail: 'https://www.hongniuzy2.com'
+} ,
+AV5: {
+ api: 'https://91md.me/api.php/provide/vod/',
+ name: 'AV-91麻豆',
+ detail: 'https://91md.me'
+},
+ AV6: {
+ api: 'http://lbapiby.com/api.php/provide/vod/at/json',
+ name: 'AV-AIvin',
+ detail: 'http://lbapiby.com'
+},
+AV8: {
+ api: 'http://fhapi9.com/api.php/provide/vod',
+ name: 'AV-番号资源',
+ detail: 'http://fhapi9.com'
+},
+AV11: {
+ api: 'https://Naixxzy.com/api.php/provide/vod',
+ name: 'AV-奶香香',
+ detail: 'https://Naixxzy.com'
+},
+AV12: {
+ api: 'https://slapibf.com/api.php/provide/vod',
+ name: 'AV-森林资源',
+ detail: 'https://slapibf.com'
+},
+AV13: {
+ api: 'https://shayuapi.com/api.php/provide/vod',
+ name: 'AV-鲨鱼资源',
+ detail: 'https://shayuapi.com'
+},
+AV17: {
+ api: 'https://apiyutu.com/api.php/provide/vod',
+ name: 'AV-玉兔资源',
+ detail: 'https://apiutu.com'
+},
+ AV19: {
+ api: 'https://www.pgxdy.com/api/json.php',
+ name: 'AV-AV资源',
+ detail: 'https://www.pgxdy.com'
+},
+ AV20: {
+ api: 'https://www.gdlsp.com/api/json.php',
+ name: 'AV-香奶儿资源',
+ detail: 'https://www.gdlsp.com'
+},
+AV21: {
+ api: 'https://www.kxgav.com/api/json.php',
+ name: 'AV-白嫖资源',
+ detail: 'https://www.kxgav.com'
+},
+AV23: {
+api: 'https://www.xrbsp.com/api/json.php',
+name: 'AV-淫水资源',
+detail: 'https://www.xrbsp.com'
+},
+AV24: {
+api: 'https://www.msnii.com/api/json.php',
+name: 'AV-美少女资源',
+detail: 'https://www.msnii.com'
+},
+AV25: {
+api: 'https://lbapi9.com/api.php/provide/vod/at/json',
+name: 'AV-乐播资源',
+detail: 'https://lbapi9.com'
+},
+AV1: {
+ api: 'https://www.caoliuzyw.com/api.php/prodao/vod',
+ name: 'AV-草榴资源',
+ detail: 'https://www.caoliuzyw.com'
+}
+
+   
   
 };
 
