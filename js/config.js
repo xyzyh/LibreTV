@@ -76,7 +76,7 @@ const API_SITES = {
   },
     wujin: {
         api: 'https://api.wujinapi.me/api.php/provide/vod',
-        name: 无尽资源'
+        name: '无尽资源'
   },
     wwzy: {
         api: 'https://wwzy.tv/api.php/provide/vod',
