@@ -22,17 +22,8 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    dyttzy: {
-        api: 'http://caiji.dyttzyapi.com',
-        name: '电影天堂资源',
-        detail: 'http://caiji.dyttzyapi.com',
-    },
-         
-    testSource: {
-        api: 'https://www.example.com',
-        name: '空内容测试源',
-        adult: true
-    }
+           
+   
 
 dyttzy: {
     api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
@@ -191,7 +182,13 @@ AV1: {
  api: 'https://www.caoliuzyw.com/api.php/prodao/vod',
  name: 'AV-草榴资源',
  detail: 'https://www.caoliuzyw.com'
-}
+},
+
+    testSource: {
+        api: 'https://www.example.com',
+        name: '空内容测试源',
+        adult: true
+    }
 
    
   
