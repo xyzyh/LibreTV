@@ -27,11 +27,7 @@ const API_SITES = {
         name: '电影天堂资源',
         detail: 'http://caiji.dyttzyapi.com'
   },
-    heimuer: {
-        api: 'https://json.heimuer.xyz/api.php/provide/vod',
-        name: '黑木耳',
-        detail: 'https://heimuer.tv'
-  },
+    
         ruyi: {
         api: 'https://cj.rycjapi.com/api.php/provide/vod',
         name: '如意资源'
@@ -109,8 +105,8 @@ const API_SITES = {
          api: 'https://www.hongniuzy2.com/api.php/provide/vod',
          name: '红牛资源',
          detail: 'https://www.hongniuzy2.com'
-} ,
-   AV5: {
+} 
+   //AV5: {
 //     api: 'https://91md.me/api.php/provide/vod/',
 //     name: 'AV-91麻豆',
 //     detail: 'https://91md.me'
@@ -180,7 +176,11 @@ const API_SITES = {
 //     name: 'AV-草榴资源',
 //     detail: 'https://www.caoliuzyw.com'
 // },
-  
+  //heimuer: {
+        //api: 'https://json.heimuer.xyz/api.php/provide/vod',
+       // name: '黑木耳',
+        //detail: 'https://heimuer.tv'
+ // },
      
 };
 
