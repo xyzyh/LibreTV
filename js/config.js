@@ -180,11 +180,7 @@ const API_SITES = {
 //     name: 'AV-草榴资源',
 //     detail: 'https://www.caoliuzyw.com'
 // },
-    testSource: {
-         api: 'https://www.example.com/api.php/provide/vod',
-         name: '空内容测试源',
-         adult: true
-    }
+  
      
 };
 
